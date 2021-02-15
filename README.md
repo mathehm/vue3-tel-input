@@ -1,7 +1,7 @@
-# vue-tel-input
+# vue3-tel-input
 International Telephone Input with Vue.
 
-[![](https://img.shields.io/npm/dt/vue-tel-input.svg)](https://www.npmjs.com/package/vue-tel-input) [![](https://img.shields.io/github/stars/educationlink/vue-tel-input.svg)](https://github.com/EducationLink/vue-tel-input)
+[![](https://img.shields.io/npm/dt/vue3-tel-input.svg)](https://www.npmjs.com/package/vue3-tel-input) [![](https://img.shields.io/github/stars/victorybiz/vue3-tel-input.svg)](https://github.com/victorybiz/vue3-tel-input)
 
 <p align="center">
 <img width="600px" alt="In-action GIF" src="https://thumbs.gfycat.com/EducatedPoliteBluefintuna-size_restricted.gif"/>
@@ -15,22 +15,22 @@ International Telephone Input with Vue.
 - Install the plugin:
 
   ```
-  npm install vue-tel-input
+  npm install vue3-tel-input
   ```
 
 - Add the plugin into your app:
 
   ```javascript
   import Vue from 'vue'
-  import VueTelInput from 'vue-tel-input'
-  import 'vue-tel-input/dist/vue-tel-input.css'
+  import VueTelInput from 'vue3-tel-input'
+  import 'vue3-tel-input/dist/vue3-tel-input.css'
 
   Vue.use(VueTelInput)
   ```
 
   [More info on installation](#installation)
 
-- Use the `vue-tel-input` component:
+- Use the `vue3-tel-input` component:
 
   ```html
   <template>
@@ -41,15 +41,15 @@ International Telephone Input with Vue.
 ## Installation
 ### npm
 ```bash
-  npm install vue-tel-input
+  npm install vue3-tel-input
 ```
 
 Install the plugin into Vue:
 
 ```javascript
 import Vue from 'vue'
-import VueTelInput from 'vue-tel-input'
-import 'vue-tel-input/dist/vue-tel-input.css'
+import VueTelInput from 'vue3-tel-input'
+import 'vue3-tel-input/dist/vue3-tel-input.css'
 
 Vue.use(VueTelInput, options) // Define default global options here (optional)
 ```
@@ -63,7 +63,7 @@ Or use the component directly:
   <vue-tel-input v-model="value"></vue-tel-input>
 </template>
 <script>
-import { VueTelInput } from 'vue-tel-input'
+import { VueTelInput } from 'vue3-tel-input'
 
 export default {
   components: {
@@ -71,15 +71,15 @@ export default {
   },
 };
 
-<style src="vue-tel-input/dist/vue-tel-input.css"></style>
+<style src="vue3-tel-input/dist/vue3-tel-input.css"></style>
 </script>
 ```
 
 ### Browser
 
 ```html
-<script src="https://unpkg.com/vue-tel-input"></script>
-<link rel="stylesheet" href="https://unpkg.com/vue-tel-input/dist/vue-tel-input.css">
+<script src="https://unpkg.com/vue3-tel-input"></script>
+<link rel="stylesheet" href="https://unpkg.com/vue3-tel-input/dist/vue3-tel-input.css">
 ```
 
 ** If Vue is detected in the Page, the plugin is installed automatically.**
@@ -131,11 +131,11 @@ Read more on `vue-form-generator`'s [instruction page](https://icebob.gitbooks.i
 
 
 ## Changelog
-[Go to Github Releases](https://github.com/EducationLink/vue-tel-input/releases)
+[Go to Github Releases](https://github.com/victorybiz/vue3-tel-input/releases)
 
 ## License
 
 Copyright (c) 2018 EducationLink.
-Released under the [MIT License](https://github.com/EducationLink/vue-tel-input/blob/master/LICENSE).
+Released under the [MIT License](https://github.com/victorybiz/vue3-tel-input/blob/master/LICENSE).
 
-made with &#x2764; by [Steven](https://github.com/iamstevendao).
+made with &#x2764; by [Victory Osayi](https://github.com/victorybiz) initial source forked from [Steven](https://github.com/iamstevendao).
