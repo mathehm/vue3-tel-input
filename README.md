@@ -22,10 +22,9 @@ International Telephone Input with Vue.
 
   ```javascript
   import { createApp } from 'vue'
+  import App from './App.vue'
   import VueTelInput from 'vue3-tel-input'
   import 'vue3-tel-input/dist/vue3-tel-input.css'
-
-  import App from './App.vue'
 
   const app = createApp(App);
   app.use(VueTelInput);
@@ -34,7 +33,7 @@ International Telephone Input with Vue.
 
   [More info on installation](#installation)
 
-- Use the `vue3-tel-input` component:
+- Use the `vue-tel-input` component:
 
   ```html
   <template>
@@ -52,13 +51,17 @@ Install the plugin into Vue:
 
 ```javascript
   import { createApp } from 'vue'
+  import App from './App.vue'
   import VueTelInput from 'vue3-tel-input'
   import 'vue3-tel-input/dist/vue3-tel-input.css'
 
-  import App from './App.vue'
+  const VueTelInputOptions = {
+    dynamicPlaceholder: true,
+    mode: "international"
+  }
 
   const app = createApp(App);
-  app.use(VueTelInput, options); // Define default global options here (optional)
+  app.use(VueTelInput, VueTelInputOptions); // Define default global options here (optional)
   app.mount("#app");
 ```
 > View all available options in [Props](https://educationlink.github.io/vue-tel-input/documentation/props.html).
@@ -72,14 +75,13 @@ Or use the component directly:
 </template>
 <script>
 import { VueTelInput } from 'vue3-tel-input'
+import 'vue3-tel-input/dist/vue3-tel-input.css'
 
 export default {
   components: {
     VueTelInput,
   },
 };
-
-<style src="vue3-tel-input/dist/vue3-tel-input.css"></style>
 </script>
 ```
 

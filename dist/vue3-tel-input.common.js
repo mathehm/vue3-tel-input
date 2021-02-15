@@ -4176,8 +4176,8 @@ module.exports = function (name) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return install; });
-/* harmony import */ var _Users_retenvo_Desktop_Projects_FullStack_bohattycoop_bohattycoop_frontend_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("5530");
-/* harmony import */ var _Users_retenvo_Desktop_Projects_FullStack_bohattycoop_bohattycoop_frontend_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("15fd");
+/* harmony import */ var _Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("5530");
+/* harmony import */ var _Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("15fd");
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("025e");
 /* harmony import */ var _components_vue_tel_input_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("e348");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _components_vue_tel_input_vue__WEBPACK_IMPORTED_MODULE_3__["a"]; });
@@ -4193,15 +4193,15 @@ function install(Vue) {
 
   var customDropdownOptions = customOptions.dropdownOptions,
       customInputOptions = customOptions.inputOptions,
-      otherCustomOptions = Object(_Users_retenvo_Desktop_Projects_FullStack_bohattycoop_bohattycoop_frontend_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(customOptions, ["dropdownOptions", "inputOptions"]);
+      otherCustomOptions = Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(customOptions, ["dropdownOptions", "inputOptions"]);
 
   var defaultDropdownOptions = _utils__WEBPACK_IMPORTED_MODULE_2__[/* defaultOptions */ "b"].dropdownOptions,
       defaultInputOptions = _utils__WEBPACK_IMPORTED_MODULE_2__[/* defaultOptions */ "b"].inputOptions,
-      otherDefaultOptions = Object(_Users_retenvo_Desktop_Projects_FullStack_bohattycoop_bohattycoop_frontend_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(_utils__WEBPACK_IMPORTED_MODULE_2__[/* defaultOptions */ "b"], ["dropdownOptions", "inputOptions"]);
+      otherDefaultOptions = Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(_utils__WEBPACK_IMPORTED_MODULE_2__[/* defaultOptions */ "b"], ["dropdownOptions", "inputOptions"]);
 
-  _utils__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"].options = Object(_Users_retenvo_Desktop_Projects_FullStack_bohattycoop_bohattycoop_frontend_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(_Users_retenvo_Desktop_Projects_FullStack_bohattycoop_bohattycoop_frontend_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
-    inputOptions: Object(_Users_retenvo_Desktop_Projects_FullStack_bohattycoop_bohattycoop_frontend_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(_Users_retenvo_Desktop_Projects_FullStack_bohattycoop_bohattycoop_frontend_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, defaultInputOptions), customInputOptions),
-    dropdownOptions: Object(_Users_retenvo_Desktop_Projects_FullStack_bohattycoop_bohattycoop_frontend_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(_Users_retenvo_Desktop_Projects_FullStack_bohattycoop_bohattycoop_frontend_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, defaultDropdownOptions), customDropdownOptions)
+  _utils__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"].options = Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({
+    inputOptions: Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, defaultInputOptions), customInputOptions),
+    dropdownOptions: Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, defaultDropdownOptions), customDropdownOptions)
   }, otherDefaultOptions), otherCustomOptions);
   Vue.component('vue-tel-input', _components_vue_tel_input_vue__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"]);
 }
