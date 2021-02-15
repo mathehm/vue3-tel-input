@@ -1,8 +1,8 @@
 {
   "name": "vue3-tel-input",
-  "version": "5.0.4-vue3",
+  "version": "1.0.0",
   "description": "International Telephone Input with Vue",
-  "author": "Steven Dao <iamstevendao@gmail.com>",
+  "author": "Victory Osayi <lavictorybiz@gmail.com>",
   "scripts": {
     "serve": "vuepress dev docs",
     "build": "vue-cli-service build --target lib src/index.js",
@@ -36,7 +36,6 @@
     "eslint-plugin-jest": "^22.15.1",
     "eslint-plugin-vue": "^7.0.0-alpha.0",
     "lint-staged": "^9.5.0",
-    "vue-cli-plugin-vue-next": "~0.1.4",
     "vuepress": "^1.7.1"
   },
   "browserslist": [
