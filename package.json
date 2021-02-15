@@ -1,6 +1,6 @@
 {
   "name": "vue3-tel-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "International Telephone Input with Vue",
   "author": "Victory Osayi <lavictorybiz@gmail.com>",
   "scripts": {
@@ -11,8 +11,8 @@
     "docs:build": "vuepress build docs",
     "prepublishOnly": "npm run build"
   },
-  "main": "dist/vue-tel-input.umd.min.js",
-  "unpkg": "dist/vue-tel-input.umd.min.js",
+  "main": "dist/vue3-tel-input.umd.min.js",
+  "unpkg": "dist/vue3-tel-input.umd.min.js",
   "files": [
     "dist/"
   ],
@@ -46,12 +46,15 @@
     "pre-commit": "lint-staged"
   },
   "homepage": "https://github.com/victorybiz/vue3-tel-input",
-  "jsdelivr": "dist/vue-tel-input.umd.min.js",
+  "jsdelivr": "dist/vue3-tel-input.umd.min.js",
   "keywords": [
     "vue",
+    "vue3",
+    "vue 3",
     "telephone",
     "phone",
     "vue-tel-input",
+    "vue3-tel-input",
     "phone input",
     "telephone input",
     "input",
