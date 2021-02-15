@@ -21,11 +21,15 @@ International Telephone Input with Vue.
 - Add the plugin into your app:
 
   ```javascript
-  import Vue from 'vue'
+  import { createApp } from 'vue'
   import VueTelInput from 'vue3-tel-input'
   import 'vue3-tel-input/dist/vue3-tel-input.css'
 
-  Vue.use(VueTelInput)
+  import App from './App.vue'
+
+  const app = createApp(App);
+  app.use(VueTelInput);
+  app.mount("#app");
   ```
 
   [More info on installation](#installation)
@@ -47,11 +51,15 @@ International Telephone Input with Vue.
 Install the plugin into Vue:
 
 ```javascript
-import Vue from 'vue'
-import VueTelInput from 'vue3-tel-input'
-import 'vue3-tel-input/dist/vue3-tel-input.css'
+  import { createApp } from 'vue'
+  import VueTelInput from 'vue3-tel-input'
+  import 'vue3-tel-input/dist/vue3-tel-input.css'
 
-Vue.use(VueTelInput, options) // Define default global options here (optional)
+  import App from './App.vue'
+
+  const app = createApp(App);
+  app.use(VueTelInput, options); // Define default global options here (optional)
+  app.mount("#app");
 ```
 > View all available options in [Props](https://educationlink.github.io/vue-tel-input/documentation/props.html).
 
