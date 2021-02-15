@@ -1,6 +1,6 @@
 {
-  "name": "vue-tel-input",
-  "version": "5.0.4",
+  "name": "vue3-tel-input",
+  "version": "5.0.4-vue3",
   "description": "International Telephone Input with Vue",
   "author": "Steven Dao <iamstevendao@gmail.com>",
   "scripts": {
@@ -19,6 +19,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "libphonenumber-js": "^1.9.6",
+    "user": "^0.0.0",
     "vue": "^3.0.0-beta.1"
   },
   "devDependencies": {
@@ -45,7 +46,7 @@
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
-  "homepage": "https://educationlink.github.io/vue-tel-input/",
+  "homepage": "https://github.com/victorybiz/vue3-tel-input",
   "jsdelivr": "dist/vue-tel-input.umd.min.js",
   "keywords": [
     "vue",
@@ -60,6 +61,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EducationLink/vue-tel-input.git"
+    "url": "https://github.com/victorybiz/vue3-tel-input.git"
   }
 }
