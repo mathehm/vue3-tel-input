@@ -3,54 +3,50 @@
   "version": "5.0.4",
   "description": "International Telephone Input with Vue",
   "author": "Steven Dao <iamstevendao@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://educationlink.github.io/vue-tel-input/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/EducationLink/vue-tel-input.git"
-  },
   "scripts": {
     "serve": "vuepress dev docs",
     "build": "vue-cli-service build --target lib src/index.js",
-    "docs:build": "vuepress build docs",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
+    "docs:build": "vuepress build docs",
     "prepublishOnly": "npm run build"
   },
+  "main": "dist/vue-tel-input.umd.min.js",
+  "unpkg": "dist/vue-tel-input.umd.min.js",
   "files": [
     "dist/"
   ],
-  "main": "dist/vue-tel-input.umd.min.js",
-  "unpkg": "dist/vue-tel-input.umd.min.js",
-  "jsdelivr": "dist/vue-tel-input.umd.min.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "libphonenumber-js": "^1.9.6",
-    "vue": "^2.6.11"
+    "vue": "^3.0.0-beta.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-unit-jest": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-beta.1",
     "@vue/eslint-config-airbnb": "^5.0.2",
-    "@vue/test-utils": "^1.0.3",
+    "@vue/test-utils": "^2.0.0-alpha.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^22.15.1",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vue": "^7.0.0-alpha.0",
     "lint-staged": "^9.5.0",
-    "vue-template-compiler": "^2.6.11",
+    "vue-cli-plugin-vue-next": "~0.1.4",
     "vuepress": "^1.7.1"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions"
   ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "homepage": "https://educationlink.github.io/vue-tel-input/",
+  "jsdelivr": "dist/vue-tel-input.umd.min.js",
   "keywords": [
     "vue",
     "telephone",
@@ -60,5 +56,10 @@
     "telephone input",
     "input",
     "international phone"
-  ]
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EducationLink/vue-tel-input.git"
+  }
 }
