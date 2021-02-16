@@ -56,8 +56,8 @@ Install the plugin into Vue:
   import 'vue3-tel-input/dist/vue3-tel-input.css'
 
   const VueTelInputOptions = {
-    dynamicPlaceholder: true,
-    mode: "international"
+    mode: "international",
+    onlyCountries: ['NG', 'GH', "GB", "US", "CA"]
   }
 
   const app = createApp(App);
@@ -71,9 +71,10 @@ Or use the component directly:
 ```html
 <!-- your-component.vue-->
 <template>
-  <vue-tel-input v-model="value"></vue-tel-input>
+  <vue-tel-input v-model="phone" mode="international"></vue-tel-input>
 </template>
 <script>
+import { ref } from 'vue'
 import { VueTelInput } from 'vue3-tel-input'
 import 'vue3-tel-input/dist/vue3-tel-input.css'
 
@@ -81,6 +82,14 @@ export default {
   components: {
     VueTelInput,
   },
+
+  setup() {
+    const phone = ref(null);
+
+    return {
+      value
+    }
+  }
 };
 </script>
 ```

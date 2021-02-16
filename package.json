@@ -1,6 +1,6 @@
 {
   "name": "vue3-tel-input",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "International Telephone Input with Vue",
   "author": "Victory Osayi <lavictorybiz@gmail.com>",
   "scripts": {
