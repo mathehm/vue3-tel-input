@@ -16,7 +16,6 @@
 //     // Provided expression must evaluate to a function.
 //     if (typeof binding.value !== "function") {
 //       const compName = vNode.context.name;
-//       // eslint-disable-next-line
 //       let warn = `[Vue-click-outside:] provided expression ${binding.expression}
 //  is not a function, but has to be`;
 //       if (compName) {
@@ -52,7 +51,6 @@ export default {
     // Provided expression must evaluate to a function.
     if (typeof binding.value !== 'function') {
       const compName = vNode.context.name;
-      // eslint-disable-next-line
       let warn = `[Vue-click-outside:] provided expression ${binding.expression}
       is not a function, but has to be`;
       if (compName) {
