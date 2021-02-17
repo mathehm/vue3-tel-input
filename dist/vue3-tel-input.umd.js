@@ -4195,7 +4195,7 @@ module.exports = function (name) {
 
 
 
-function install(Vue) {
+function install(app) {
   var customOptions = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
   if (install.installed) return;
   install.installed = true;
@@ -4212,7 +4212,7 @@ function install(Vue) {
     inputOptions: Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, defaultInputOptions), customInputOptions),
     dropdownOptions: Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(_Users_retenvo_Desktop_Projects_PackageDevelopment_vue3_src_plugins_vue3_tel_input_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, defaultDropdownOptions), customDropdownOptions)
   }, otherDefaultOptions), otherCustomOptions);
-  Vue.component('vue-tel-input', _components_vue_tel_input_vue__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"]);
+  app.component('vue-tel-input', _components_vue_tel_input_vue__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"]);
 }
 
 var plugin = {
