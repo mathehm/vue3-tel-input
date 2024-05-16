@@ -300,7 +300,7 @@ export default {
       }
     },
   },
-  mounted() {
+  onMounted() {
     if (this.value) {
       console.log('mounted', this.value);
 
