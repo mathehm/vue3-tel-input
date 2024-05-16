@@ -302,6 +302,8 @@ export default {
   },
   mounted() {
     if (this.value) {
+      console.log('mounted', this.value);
+
       this.phone = this.value.trim();
     }
 
